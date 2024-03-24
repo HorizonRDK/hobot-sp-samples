@@ -1,11 +1,13 @@
+English| [简体中文](./README_cn.md)
+
 # aiexpress_webserver
 
-里面包含nginx服务以及与ai-express统一web客户端配套的web页面。
+Includes nginx service and web pages that are compatible with the ai-express unified web client.
 
-PC web页面基于web socket协议与X3侧WebDisplayPlugin通信，获得WebDisplayPlugin发送来的jpg图像与序列化后的感知结果，对感知结果进行反序列化，然后渲染显示。
+The PC web page communicates with the X3-side WebDisplayPlugin based on the web socket protocol, obtaining jpg images and serialized perception results sent by WebDisplayPlugin, deserializing the perception results, and then rendering and displaying them.
 
-# 使用
-1、拷贝此文件夹到设备上
-2、启动服务：./sbin/nginx -p .
-3、访问：
-    web展示端：http://IP
+# Instructions
+1. Copy this folder to the device
+2. Start the service: ./sbin/nginx -p .
+3. Access:
+    Web display terminal: http://IP
